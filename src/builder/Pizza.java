@@ -2,18 +2,18 @@ package builder;
 
 public class Pizza {
 
-    private String size;
-    private boolean tomatoSauce;
-    private boolean cheese;
-    private boolean ham;
-    private boolean corn;
-    private boolean bacon;
-    private boolean pepperoni;
-    private boolean salami;
-    private boolean pineapple;
-    private boolean chickenMeat;
-    private boolean tuna;
-    private boolean onion;
+    private final String size;
+    private final boolean tomatoSauce;
+    private final boolean cheese;
+    private final boolean ham;
+    private final boolean corn;
+    private final boolean bacon;
+    private final boolean pepperoni;
+    private final boolean salami;
+    private final boolean pineapple;
+    private final boolean chickenMeat;
+    private final boolean tuna;
+    private final boolean onion;
 
     public static Builder createPizza(){
         return new Builder();
